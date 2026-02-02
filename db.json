@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@docapp.com",
+      "password": "admin",
+      "role": "admin",
+      "name": "System Admin"
+    },
+    {
+      "id": "2",
+      "email": "doctor@app.com",
+      "password": "doc123",
+      "role": "doctor",
+      "name": "Dr. Smith",
+      "doctorUserId": "doc1"
+    },
+    {
+      "id": "3",
+      "email": "patient@docapp.com",
+      "password": "patient123",
+      "role": "patient",
+      "name": "John Doe"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "cbbf9156-5212-4d06-a8ac-4bc41333f432",
+      "name": "Hamid",
+      "specialization": "Dentist",
+      "email": "admin@docapp.com"
+    },
+    {
+      "id": "a68b72d6-652b-4ae1-8330-84422ce51c03",
+      "name": "Aamir",
+      "specialization": "Orthopedic",
+      "email": "admin@docapp.com"
+    },
+    {
+      "id": "6d1fdc61-b7e8-4db6-b256-ef0b76cc7bdc",
+      "name": "Atif Lal",
+      "specialization": "gynocologist",
+      "email": "admin@docapp.com"
+    },
+    {
+      "id": "30bbbcba-083d-4ac8-9cca-f86a855eaa85",
+      "name": "Farhan",
+      "specialization": "Fertility",
+      "email": "admin@docapp.com"
+    },
+    {
+      "id": "7eb4767a-55a9-4066-aeef-4f0c02573c92",
+      "name": "Mogesh",
+      "specialization": "Biotech",
+      "email": "admin@docapp.com"
+    },
+    {
+      "id": "a47f5d89-2c24-4e4c-9b60-c325662df729",
+      "name": "Guddu Bahaiya",
+      "specialization": "Power Doctor",
+      "email": "admin@docapp.com"
+    },
+    {
+      "id": "38ab",
+      "name": "aftab",
+      "specialization": "derma",
+      "doctorUserId": "doc1770059161904"
+    },
+    {
+      "id": "7a24",
+      "name": "zunaid",
+      "specialization": "animal",
+      "doctorUserId": "doc1770060789658"
+    },
+    {
+      "id": "ad01",
+      "name": "Maviya",
+      "specialization": "Pedestrains",
+      "doctorUserId": "doc1770061423814"
+    }
+  ],
+  "patients": [
+    {
+      "id": "1769993751913",
+      "name": "hamid",
+      "email": "abdullahhamid1609@gmail.com",
+      "password": "hamid@123"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "2bbe",
+      "doctorId": "38ab",
+      "doctorUserId": "doc1770059161904",
+      "doctorName": "aftab",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-02-05",
+      "time": "20:36",
+      "status": "pending"
+    },
+    {
+      "id": "5e3a",
+      "doctorId": "7a24",
+      "doctorUserId": "doc1770060789658",
+      "doctorName": "zunaid",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-02-26",
+      "time": "13:21",
+      "status": "pending"
+    },
+    {
+      "id": "07e5",
+      "doctorId": "a68b72d6-652b-4ae1-8330-84422ce51c03",
+      "doctorName": "Aamir",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-02-04",
+      "time": "16:22",
+      "status": "pending"
+    },
+    {
+      "id": "3837",
+      "doctorId": "cbbf9156-5212-4d06-a8ac-4bc41333f432",
+      "doctorName": "Hamid",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-02-12",
+      "time": "16:22",
+      "status": "pending"
+    },
+    {
+      "id": "5840",
+      "doctorId": "30bbbcba-083d-4ac8-9cca-f86a855eaa85",
+      "doctorName": "Farhan",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-02-12",
+      "time": "16:22",
+      "status": "pending"
+    }
+  ]
+}

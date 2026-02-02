@@ -1,0 +1,10 @@
+
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr John",
+      "specialization": "Cardiology"
+    }
+  ]
+}

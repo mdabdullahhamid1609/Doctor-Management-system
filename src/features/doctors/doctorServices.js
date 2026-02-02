@@ -1,0 +1,57 @@
+// import doctors from "../../Data/doctor.json"
+
+// export const getDoctors = ()  => {
+//     return JSON.parse(localStorage.getItem("doctors"))  || doctors
+// };
+
+// export const saveDoctors = (data) => {
+//   localStorage.setItem("doctors", JSON.stringify(data));
+// };
+
+// export const addDoctor = (doctor) => {
+//   const existing = getDoctors();
+//   saveDoctors([...existing, { ...doctor, id: Date.now() }]);
+// };
+
+// export const deleteDoctor = (id) => {
+//   const updated = getDoctors().filter(d => d.id !== id);
+//   saveDoctors(updated);
+// };
+import axios from "axios";
+
+const API = "http://localhost:5000/doctors";
+
+export const fetchDoctors = async () => {
+  const res = await axios.get(API);
+  return res.data;
+};
+
+// export const createDoctor = async (doctor) => {
+//   const res = await axios.post(API, doctor);
+//   return res.data;
+// };
+
+export const createDoctor = async ({ name, specialization, user }) => {
+  const newDoctor = {
+    id: crypto.randomUUID(),
+    name,
+    specialization,
+
+    // ✅ LINK TO LOGGED-IN DOCTOR
+    doctorUserId: user.doctorUserId,
+
+    // ✅ REAL DOCTOR EMAIL
+    email: user.email
+  };
+
+  const res = await axios.post(API, newDoctor);
+  return res.data;
+};
+export const updateDoctor = async (id, doctor) => {
+  const res = await axios.put(`${API}/${id}`, doctor);
+  return res.data;
+};
+
+export const removeDoctor = async (id) => {
+  await axios.delete(`${API}/${id}`);
+};
