@@ -77,6 +77,12 @@
       "name": "Maviya",
       "specialization": "Pedestrains",
       "doctorUserId": "doc1770061423814"
+    },
+    {
+      "id": "ad7b",
+      "name": "vikram thaper",
+      "specialization": "nephronlogist",
+      "doctorUserId": "doc1770068843066"
     }
   ],
   "patients": [
@@ -97,7 +103,7 @@
       "patientName": "John Doe",
       "date": "2026-02-05",
       "time": "20:36",
-      "status": "pending"
+      "status": "approved"
     },
     {
       "id": "5e3a",
@@ -108,7 +114,7 @@
       "patientName": "John Doe",
       "date": "2026-02-26",
       "time": "13:21",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "07e5",
@@ -118,7 +124,7 @@
       "patientName": "John Doe",
       "date": "2026-02-04",
       "time": "16:22",
-      "status": "pending"
+      "status": "approved"
     },
     {
       "id": "3837",
@@ -128,7 +134,7 @@
       "patientName": "John Doe",
       "date": "2026-02-12",
       "time": "16:22",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "5840",
@@ -138,7 +144,62 @@
       "patientName": "John Doe",
       "date": "2026-02-12",
       "time": "16:22",
-      "status": "pending"
+      "status": "approved"
+    },
+    {
+      "id": "7216",
+      "doctorId": "a68b72d6-652b-4ae1-8330-84422ce51c03",
+      "doctorName": "Aamir",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-03-03",
+      "time": "10:02",
+      "status": "approved"
+    },
+    {
+      "id": "cefb",
+      "doctorId": "38ab",
+      "doctorUserId": "doc1770059161904",
+      "doctorName": "aftab",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-03-05",
+      "time": "12:02",
+      "status": "rejected"
+    },
+    {
+      "id": "207b",
+      "doctorId": "6d1fdc61-b7e8-4db6-b256-ef0b76cc7bdc",
+      "doctorName": "Atif Lal",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-03-06",
+      "time": "14:03",
+      "status": "approved"
+    },
+    {
+      "id": "5047",
+      "doctorId": "a47f5d89-2c24-4e4c-9b60-c325662df729",
+      "doctorName": "Guddu Bahaiya",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "date": "2026-03-08",
+      "time": "15:03",
+      "status": "rejected"
+    },
+    {
+      "id": "c5fc",
+      "doctorId": "a47f5d89-2c24-4e4c-9b60-c325662df729",
+      "doctorName": "Guddu Bahaiya",
+      "patientId": "1769993751913",
+      "patientName": "hamid",
+      "patientEmail": "abdullahhamid1609@gmail.com",
+      "date": "2026-02-04",
+      "time": "01:14",
+      "status": "approved",
+      "paymentStatus": "paid",
+      "paymentId": "FAKE_PAY_1770140701727",
+      "amount": 500
     }
   ]
 }

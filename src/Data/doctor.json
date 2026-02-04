@@ -3,6 +3,7 @@
   "doctors": [
     {
       "id": 1,
+      "userId": 2,
       "name": "Dr John",
       "specialization": "Cardiology"
     }
