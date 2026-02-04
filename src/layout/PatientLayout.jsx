@@ -1,21 +1,4 @@
-// const PatientLayout = ({ children }) => (
-//   <>
-//     <h3>Patient Layout</h3>
-//     {children}
-//   </>
-// );
 
-// export default PatientLayout;
-// import { Outlet } from "react-router-dom";
-
-// const PatientLayout = () => (
-//   <>
-//     <h3>Patient Layout</h3>
-//     <Outlet />
-//   </>
-// );
-
-// export default PatientLayout;
 import { Outlet, useNavigate } from "react-router-dom";
 import { useAuth } from "../store/AuthContext";
 

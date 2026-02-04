@@ -36,7 +36,6 @@ import PatientRoutes from "./PatientRoutes.jsx";
 import Register from "../features/auth/Register.jsx";
 const AppRouter = () => (
   <Routes>
-    {/* ROOT REDIRECT */}
     <Route path="/" element={<Navigate to="/login" replace />} />
 
     <Route path="/login" element={<LoginPage />} />

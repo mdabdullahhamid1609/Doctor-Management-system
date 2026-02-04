@@ -142,18 +142,15 @@ const AdminPage = () => {
 
   return (
     <div className="p-6 max-w-7xl mx-auto">
-      {/* Header */}
       <h2 className="text-4xl font-extrabold text-gray-800 mb-6 text-center md:text-left">
         Admin Dashboard – Doctor Management
       </h2>
 
-      {/* Doctor Form */}
       <div className="mb-8 bg-white p-6 rounded-xl shadow-lg">
         <h3 className="text-2xl font-semibold mb-4">Add New Doctor</h3>
         <DoctorForm onAdd={addDoctor} />
       </div>
 
-      {/* Search + Sorting */}
       <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6 space-y-3 md:space-y-0">
         <SearchBar
           value={search}
@@ -178,7 +175,6 @@ const AdminPage = () => {
         </div>
       </div>
 
-      {/* Doctor List */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredDoctors.length === 0 && (
           <p className="text-gray-500 col-span-full">No doctors found.</p>

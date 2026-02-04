@@ -78,7 +78,6 @@ const Login = () => {
   const { login } = useAuth();
   const navigate = useNavigate();
 
-  // ✅ ASYNC HANDLER (IMPORTANT FIX)
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
@@ -137,7 +136,6 @@ const Login = () => {
           {loading ? "Logging in..." : "Login"}
         </button>
 
-        {/* REGISTER LINK */}
         <p className="text-center text-sm text-gray-600">
           Not registered?{" "}
           <Link

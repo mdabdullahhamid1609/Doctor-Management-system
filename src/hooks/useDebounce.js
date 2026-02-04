@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
 
-/**
- * useDebounce
- * Delays updating the value until user stops typing
- */
 const useDebounce = (value, delay = 500) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
 

@@ -26,10 +26,6 @@ export const fetchDoctors = async () => {
   return res.data;
 };
 
-// export const createDoctor = async (doctor) => {
-//   const res = await axios.post(API, doctor);
-//   return res.data;
-// };
 
 export const createDoctor = async ({ name, specialization, user }) => {
   const newDoctor = {
@@ -37,10 +33,7 @@ export const createDoctor = async ({ name, specialization, user }) => {
     name,
     specialization,
 
-    // ✅ LINK TO LOGGED-IN DOCTOR
     doctorUserId: user.doctorUserId,
-
-    // ✅ REAL DOCTOR EMAIL
     email: user.email
   };
 
