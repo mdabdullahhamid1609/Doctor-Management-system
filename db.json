@@ -83,6 +83,18 @@
       "name": "vikram thaper",
       "specialization": "nephronlogist",
       "doctorUserId": "doc1770068843066"
+    },
+    {
+      "id": "bea9",
+      "name": "Zaki",
+      "specialization": "Oncologist",
+      "doctorUserId": "doc1770225374486"
+    },
+    {
+      "id": "91a6",
+      "name": "Debasis sir",
+      "specialization": "dentist",
+      "doctorUserId": "doc1770371325333"
     }
   ],
   "patients": [
@@ -91,6 +103,18 @@
       "name": "hamid",
       "email": "abdullahhamid1609@gmail.com",
       "password": "hamid@123"
+    },
+    {
+      "id": 1770371398219,
+      "name": "Arpita",
+      "email": "arpita@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 1770396889207,
+      "name": "Zaki",
+      "email": "zaki@gmail.com",
+      "password": "123456"
     }
   ],
   "appointments": [
@@ -199,6 +223,35 @@
       "status": "approved",
       "paymentStatus": "paid",
       "paymentId": "FAKE_PAY_1770140701727",
+      "amount": 500
+    },
+    {
+      "id": "dcb9",
+      "doctorId": "91a6",
+      "doctorUserId": "doc1770371325333",
+      "doctorName": "Debasis sir",
+      "patientId": 1770371398219,
+      "patientName": "Arpita",
+      "patientEmail": "arpita@gmail.com",
+      "date": "2026-02-12",
+      "time": "06:20",
+      "status": "approved",
+      "paymentStatus": "paid",
+      "paymentId": "FAKE_PAY_1770371456376",
+      "amount": 500
+    },
+    {
+      "id": "a2d9",
+      "doctorId": "30bbbcba-083d-4ac8-9cca-f86a855eaa85",
+      "doctorName": "Farhan",
+      "patientId": 1770371398219,
+      "patientName": "Arpita",
+      "patientEmail": "arpita@gmail.com",
+      "date": "2026-02-14",
+      "time": "05:21",
+      "status": "rejected",
+      "paymentStatus": "paid",
+      "paymentId": "FAKE_PAY_1770371476009",
       "amount": 500
     }
   ]

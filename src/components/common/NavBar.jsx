@@ -1,27 +1,3 @@
-// import { Link } from "react-router-dom";
-// import Button from "./Button";
-
-// const Navbar = ({ links, onLogout }) => {
-//   return (
-//     <nav style={{ padding: "12px", borderBottom: "1px solid #ddd" }}>
-//       {links.map((link) => (
-//         <Link
-//           key={link.path}
-//           to={link.path}
-//           style={{ marginRight: "16px" }}
-//         >
-//           {link.label}
-//         </Link>
-//       ))}
-
-//       <span style={{ float: "right" }}>
-//         <Button onClick={onLogout}>Logout</Button>
-//       </span>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
 
 import { Link } from "react-router-dom";
 

@@ -1,19 +1,4 @@
-// import { Routes, Route } from "react-router-dom";
-// import ProtectedRoute from "../features/auth/ProtectedRoute.jsx";
-// import DoctorLayout from "../layout/DoctorLayout.jsx";
-// import DoctorPage from "../pages/DoctorPage.jsx";
 
-// const DoctorRoutes = () => (
-//   <ProtectedRoute roles={["doctor"]}>
-//     <DoctorLayout>
-//       <Routes>
-//         <Route index element={<DoctorPage />} />
-//       </Routes>
-//     </DoctorLayout>
-//   </ProtectedRoute>
-// );
-
-// export default DoctorRoutes;
 import { Routes, Route } from "react-router-dom";
 import ProtectedRoute from "../features/auth/ProtectedRoute.jsx";
 import DoctorLayout from "../layout/DoctorLayout.jsx";

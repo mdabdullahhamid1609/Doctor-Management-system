@@ -1,29 +1,3 @@
-// import axios from "axios";
-
-
-// const API = "http://localhost:5000/users";
-
-// import users from "../Data/users.json"
-// import users from "../Data/users.json";
-
-// export const loginUser = (email, password) => {
-//   const foundUser = users.find(
-//     (u) => u.email === email && u.password === password
-//   );
-
-//   if (!foundUser) {
-//     throw new Error("invalid user");
-//   }
-
-//   const token = {
-//     user: foundUser, 
-//     expiry: Date.now() + 60 * 60 * 1000,
-//   };
-
-//   localStorage.setItem("auth", JSON.stringify(token));
-//   return foundUser;
-// };
-
 import users from "../Data/users.json";
 import axios from "axios";
 

@@ -1,35 +1,3 @@
-// import axios from "axios";
-
-// const API = "http://localhost:5000/appointments";
-
-// export const storageService = {
-//   addAppointment: async (appointment) => {
-//     const res = await axios.post(API, {
-//       ...appointment,
-//       status: "pending",
-//     });
-//     return res.data;
-//   },
-
-//   // ✅ USE DOCTOR NAME (WORKS WITH YOUR DB)
-//   getAppointmentsByDoctorName: async (doctorName) => {
-//     const res = await axios.get(API);
-
-//     return res.data.filter(
-//       (a) => a.doctorName?.trim() === doctorName?.trim()
-//     );
-//   },
-
-//   updateAppointmentStatus: async (id, status) => {
-//     const res = await axios.patch(`${API}/${id}`, { status });
-//     return res.data;
-//   },
-
-//   getAllAppointments: async () => {
-//     const res = await axios.get(API);
-//     return res.data;
-//   },
-// };
 
 //
 import axios from "axios";
